@@ -1,0 +1,67 @@
+.skill {
+  margin-bottom: 35px;
+  position: relative;
+  overflow: hidden;
+
+  > p {
+    margin: 0;
+    font-size: 18px;
+  }
+
+  &:before {
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: $light;
+    bottom: 0;
+  }
+}
+
+.skill-bar {
+  width: 100%;
+  height: 5px;
+  background: $primary;
+  display: block;
+  position: relative;
+
+  span {
+    position: absolute;
+    border-top: 5px solid inherit;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+    right: 0;
+  }
+}
+
+.skill-bar.skill-bar-go {
+  background: #00acd7;
+}
+.skill-bar.skill-bar-node {
+  background: #73aa63;
+}
+.skill-bar.skill-bar-python {
+  background: #4382b3;
+}
+.skill-bar.skill-bar-mongo {
+  background: #13aa52;
+}
+.skill-bar.skill-bar-redis {
+  background: #a41f16;
+}
+.skill-bar.skill-bar-influx {
+  background: #23262e;
+}
+.skill-bar.skill-bar-crate {
+  background: #55d3f3;
+}
+
+@for $i from 0 through 100 {
+  .skill-#{$i} {
+    width: percentage($i/100);
+  }
+}

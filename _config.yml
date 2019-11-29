@@ -1,0 +1,48 @@
+### Site Settings ###
+title: Amirhossein Yaghoubi
+description: >- # >- means to ignore newlines until "url:"
+  Back-End Developer | Go Lover | Gamer
+
+url: "" # base hostname & protocol for your site (e.g. http://example.com)
+baseurl: "yaghoubi.dev"
+repository: amir-yaghoubi/portfolio # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+
+### Author Info ###
+author:
+  name: Amirhossein Yaghoubi
+  image: ./assets/img/me.jpg
+  email: amir.yaghoubi.dev@gmail.com
+  github: amir-yaghoubi
+  instagram: amir.h.y
+  linkedin: amirhossein-yaghoobi-3a7765163
+  #  medium            : your_username
+  twitter: amir__yaghoubi
+
+### Pagination ###
+paginate: 6
+paginate_path: "/blog/page-:num/"
+
+### Posts Permalink ###
+permalink: blog/:title
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock

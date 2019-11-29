@@ -1,0 +1,11 @@
+- name: NodeJs
+  percentage: 90
+  color: node
+
+- name: Go
+  percentage: 75
+  color: go
+
+- name: Python
+  percentage: 40
+  color: python

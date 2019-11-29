@@ -1,0 +1,15 @@
+- name: MongoDB
+  percentage: 85
+  color: mongo
+
+- name: RedisDB
+  percentage: 90
+  color: redis
+
+- name: InfluxDB
+  percentage: 80
+  color: influx
+
+- name: CrateDB
+  percentage: 70
+  color: crate
