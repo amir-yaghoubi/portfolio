@@ -4,7 +4,7 @@ description: >- # >- means to ignore newlines until "url:"
   Back-End Developer | Go Lover | Gamer
 
 url: "" # base hostname & protocol for your site (e.g. http://example.com)
-baseurl: "yaghoubi.dev"
+baseurl: ""
 repository: amir-yaghoubi/portfolio # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
 
 ### Author Info ###
