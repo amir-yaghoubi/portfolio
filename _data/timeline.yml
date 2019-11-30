@@ -3,8 +3,8 @@
   to: 2018-08
   # description: blah blah blah
   bullet:
-    - Developing chabok push Back-End
-    - Integration of chabok messages with ADP sms module
+    - Developing Chabok push Back-end
+    - Integration of Chabok messages with ADP SMS module
     - Load testing and enhancements on the system for world cup 2017 (due to jam21 application)
 
 - title: Back-End Developer, Chabok Realtime Solutions
@@ -12,10 +12,10 @@
   to: present
   # description: blah blah blah
   bullet:
-    - Using RabbitMQ for distributing works in order to scale horizontally
+    - Using RabbitMQ for distributing works to scale horizontally
     - Decoupling existing system modules with communicating over events
     - Working with Redis for pub/sub, caching, jobs queues
     - Optimizing critical parts of systems using flame graph tools and memory profiles
-    - Developing  user segmentation system with the backing of mongoDB and crateDB
+    - Developing user segmentation system with the backing of MongoDB and CrateDB
     - Implementing invoicing mechanism
     - Implementing behavioral and geo push
